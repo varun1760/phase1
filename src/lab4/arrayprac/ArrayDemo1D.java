@@ -16,6 +16,7 @@ public class ArrayDemo1D {
 		for ( int i = 0; i < marks.length; i++ ) {
 			marks[i] = scan.nextInt();
 		}
+		scan.close();
 		System.out.println("Array Elements are:");
 		for ( int i = 0; i < marks.length; i++ ) {
 			System.out.println(marks[i]);

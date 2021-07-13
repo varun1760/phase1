@@ -30,7 +30,7 @@ public class HashMapPractice {
 		System.out.println();
 		
 		System.out.println("***Using enhanced for loop***");
-		for (Map.Entry entry  : hMap.entrySet()) {
+		for (Map.Entry<Character, Integer> entry  : hMap.entrySet()) {
 			System.out.println(entry);
 			System.out.println(entry.getKey() + " -> " + entry.getValue());
 		}

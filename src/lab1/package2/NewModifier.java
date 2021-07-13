@@ -7,6 +7,7 @@ public class NewModifier {
 	public static void main(String[] args) {
 //		SpecificModifier specificModifier = new SpecificModifier();		// can't access default
 																		// class in other package
+		@SuppressWarnings("unused")
 		AccessModifier access = new AccessModifier();		// can't use without importing package
 //		access.display();		// can't access
 		

@@ -29,6 +29,7 @@ public class TypeCasting {
 		SpecificModifier specificModifier2 = new SpecificModifier();
 		specificModifier2.display();
 		
+		@SuppressWarnings("unused")
 		AccessModifier access = new AccessModifier();
 //		access.display();		// can't use without extend. i.e. making subclass
 	}

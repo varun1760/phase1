@@ -16,6 +16,7 @@ public class ArrayDemo2D {
 			System.out.println("How many elements in array ["
 					+i+"] : ");
 			int m = scan.nextInt();
+			scan.close();
 			marks[i] = new int[m];
 		}
 		

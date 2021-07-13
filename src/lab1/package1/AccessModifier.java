@@ -14,6 +14,7 @@ class SpecificModifier {
 	void display() {
 		System.out.println("inside display method");
 	}
+	@SuppressWarnings("unused")
 	private void displayPrivate() {
 		System.out.println("inside display private method");
 	}

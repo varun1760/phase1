@@ -31,7 +31,7 @@ public class HashMapDemo {
 		
 		System.out.println();
 		System.out.println("Enhanced For loop");
-		for (Map.Entry entry : hMap.entrySet() ) {	
+		for (Map.Entry<Integer, String> entry : hMap.entrySet() ) {	
 			// Map.Entry is an Inner Class
 			System.out.println(entry);
 		}
