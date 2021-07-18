@@ -56,8 +56,13 @@ class LinkedList {
 		return -1;
 	}
 	
-	
-
+	public void print() {
+		Node current = first;
+		while (current != null) {
+			System.out.println(current.value);
+			current = current.next;
+		}
+	}
 }
 
 public class CustomLinkedList {
@@ -67,9 +72,12 @@ public class CustomLinkedList {
 		list.addLast(100);
 		list.addLast(200);
 		list.addFirst(50);
-		
-		System.out.println(list.isEmpty() ? "Empty" : "Not Empty");
-		var index = list.indexOf(100);	// var can hold any type of instance
-		System.out.println((index != -1) ? index : "Item is not available");
+		list.print();
+		System.out.println(list.isEmpty() ? "List isEmpty" 
+				: "List is Not Empty");
+		var index = list.indexOf(100);	// var can hold any type of
+										// instance
+		System.out.println((index != -1) ? index : 
+			"Item is not available");
 	}
 }
